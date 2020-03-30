@@ -44,4 +44,4 @@ Some common web development and wallet managing concerns were ignored due to the
 - Metamask should notify the user to sign sign the transactions
 - Implement token authentication when connecting to the peer server. One is supplied on peer creation but is not utilised.
 - Proper input checking in the client and proper UI/UX flow and design
-
+- Ideally, an uploader would sign the transaction to deploy the FileVerify Contract, send the sig to the server and the contract is deployed by the server as the merkle root can be manipulated before the contract creation.
